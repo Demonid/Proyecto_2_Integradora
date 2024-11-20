@@ -277,3 +277,9 @@ body {
   font-size: 20px;
   color: #555;
 }
+
+h2 {
+  font-size: x-large;
+  color: #8b5e3c;
+  margin-bottom: 20px;
+}

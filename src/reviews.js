@@ -99,17 +99,12 @@ function ReviewsPage() {
       </ul>
 
       <style jsx>{`
-        .container {
-          max-width: 600px;
-          margin: auto;
-          padding: 20px;
-        }
-
         .review-form,
         .reviews-list {
           display: flex;
           flex-direction: column;
           width: 60%;
+          font-size: large;
         }
 
         .review-form label,
@@ -124,20 +119,7 @@ function ReviewsPage() {
           margin-top: 5px;
           border: 1px solid #ccc;
           border-radius: 4px;
-        }
-
-        .review-form button {
-          margin-top: 15px;
-          padding: 10px;
-          background-color: #4caf50;
-          color: white;
-          border: none;
-          border-radius: 4px;
-          cursor: pointer;
-        }
-
-        .review-form button:hover {
-          background-color: #45a049;
+          margin-bottom: 1rem;
         }
 
         .reviews-list {
@@ -160,6 +142,9 @@ function ReviewsPage() {
         .review-item p {
           margin: 5px 0;
           color: #555;
+        }
+        h3 {
+          font-size: large;
         }
       `}</style>
     </div>

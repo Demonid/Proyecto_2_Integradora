@@ -82,16 +82,11 @@ function JobApplicationPage() {
       </form>
 
       <style jsx>{`
-        .container {
-          max-width: 600px;
-          margin: auto;
-          padding: 20px;
-        }
-
         .job-application-form {
           display: flex;
           flex-direction: column;
           width: 60%;
+          font-size: large;
         }
 
         .job-application-form label {
@@ -105,20 +100,7 @@ function JobApplicationPage() {
           margin-top: 5px;
           border: 1px solid #ccc;
           border-radius: 4px;
-        }
-
-        .job-application-form button {
-          margin-top: 15px;
-          padding: 10px;
-          background-color: #4caf50;
-          color: white;
-          border: none;
-          border-radius: 4px;
-          cursor: pointer;
-        }
-
-        .job-application-form button:hover {
-          background-color: #45a049;
+          margin-bottom: 1rem;
         }
       `}</style>
     </div>
